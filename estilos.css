@@ -1,0 +1,78 @@
+html{
+    background: grey;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    color: white;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+.button {
+    border:2px solid;
+    border-radius:5px;
+    width: 60px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color:black;
+    color: white;
+    margin: 0 2px 0 2px;
+}
+
+.button.active {
+    background-color: grey;
+    color: white;
+}
+
+button {
+    position: relative;
+    float:right;
+    color: white;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+#container {
+    width:50%;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background: linear-gradient(120deg, black, grey);
+    border:4px solid black;
+    border-radius:5px;
+    color: white;
+    font-weight: bold;
+  
+
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
